@@ -18,11 +18,11 @@ function checkWinner(a,b)
     let element = document.querySelector("h1");
     if(a > b)
     {
-        element.innerHTML = "🏁 Player 1 Wins";
+        element.innerHTML = "👑 Player 1 Wins";
     }
     else if(a < b)
     {
-        element.innerHTML = "Player 2 Wins 🏁";
+        element.innerHTML = "Player 2 Wins 👑";
     }
     else
     {
